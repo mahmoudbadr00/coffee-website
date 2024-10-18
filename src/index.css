@@ -10,3 +10,34 @@ body {
 code {
   font-family: 'Poppins', sans-serif;
 }
+
+.dark-mode {
+  background-color: #121212;
+  color: #ffffff;
+}
+
+.navbar-dark {
+  background-color: #1e1e1e !important;
+}
+
+.navbar-light {
+  background-color: #f8f9fa !important;
+}
+
+.nav-link.active {
+  position: relative;
+}
+
+.nav-link.active::after {
+  content: '';
+  position: absolute;
+  bottom: -5px;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background-color: currentColor;
+}
+
+.dark-mode .nav-link.active::after {
+  background-color: #ffffff;
+}
