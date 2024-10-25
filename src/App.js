@@ -84,7 +84,7 @@ function App() {
           </Navbar.Brand>
           <Navbar.Toggle aria-controls='basic-navbar-nav' />
           <Navbar.Collapse id='basic-navbar-nav'>
-            <Nav className='me-auto justify-content-end w-100' style={{direction:'rtl'}}>
+            <Nav className='me-auto justify-content-end w-100' style={{alignItems:'end'}}>
               <Nav.Link 
                 as={Link} 
                 to='/' 
